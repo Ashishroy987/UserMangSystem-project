@@ -46,7 +46,7 @@ frontend/
 
 ### 1. Backend
 
-Create `backend/.env` from `backend/.env` and set:
+Create `backend/.env` from `backend/.env.example` and set:
 
 ```env
 PORT=5000
@@ -66,7 +66,7 @@ npm run dev
 
 ### 2. Frontend
 
-Create `frontend/.env` from `frontend/.env`:
+Create `frontend/.env` from `frontend/.env.example`:
 
 ```env
 VITE_API_URL=http://localhost:5000/api
